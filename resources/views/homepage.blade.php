@@ -14,8 +14,8 @@
 
                 <h1 class="text-blue tw-text-2xl sm:tw-text-3xl tw-font-semibold tw-mb-4">Get the best price on life<br> insurance for type 2 diabetics</h1>
 
-                <div class="tw-mb-4 tw-flex tw-flex-col md:tw-flex-row md:tw-items-center">
-                    <div class="tw-mr-4 tw-mb-4 md:tw-mb-0">
+                <div class="tw-mb-4 tw-flex tw-flex-col">
+                    <div class="tw-mr-4 tw-mb-4">
                         <a plain class="custom-button btn-lg text-lg tw-inline-block" href="{{ url('/questions#/what-is-your-gender') }}">
                             Get your FREE quote
                         </a>

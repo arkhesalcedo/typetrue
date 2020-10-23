@@ -22,7 +22,7 @@
             <div class="md:tw-w-1/3 tw-justify-start tw-flex tw-items-center tw-flex-col">
                 <img alt="30 day money-back guarantee" src="https://typetrue.ca/images/money-back-logo.png" class="tw-inline-block tw-mb-5">
 
-                <img alt="Click for the BBB Business Review of this Insurance - Life in North York ON" src="https://typetrue.ca/images/bbb-logo.png" class="tw-inline-block">
+                <img alt="Click for the BBB Business Review of this Insurance - Life in North York ON" src="https://typetrue.ca/images/bbb-logo.png" class="tw-inline-block bbb-logo">
             </div>
         </div>
 

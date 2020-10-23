@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Get the best price on life insurance for type two diabetics."/>
 
-    <link rel="canonical" href="https://typetrue.ca" />
-
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="60x60" href="{{ url('apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url('favicon-32x32.png') }}">
@@ -37,7 +35,7 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-MZBHRFP');</script>
     <!-- End Google Tag Manager -->
-    
+
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -47,7 +45,7 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '626263161104702'); 
+        fbq('init', '626263161104702');
         fbq('track', 'PageView');
     </script>
     <noscript>
