@@ -31,8 +31,14 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/questions', function () {
-    return view('questions');
+Route::get('/email-validate/{address}', function($address) {
+    $client = new GuzzleHttp\Client();
+
+    $result = $client->get('https://api:' . env('MAILGUN_API') . '@api.mailgun.net/v4/address/validate', [
+        'query' => ['address' => $address]
+    ]);
+
+    return response()->json(json_decode($result->getBody()->getContents()));
 });
 
 Route::post('/request-callback', function () {
@@ -53,16 +59,6 @@ Route::post('/email-quote', function () {
     \Mail::to($lead->email)->send(new \App\Mail\EmailQuote($lead));
 });
 
-Route::get('/email-validate/{address}', function($address) {
-    $client = new GuzzleHttp\Client();
-
-    $result = $client->get('https://api:' . env('MAILGUN_API') . '@api.mailgun.net/v4/address/validate', [
-        'query' => ['address' => $address]
-    ]);
-
-    return response()->json(json_decode($result->getBody()->getContents()));
-});
-
 Route::prefix('lead')->group(function () {
     Route::post('store', 'LeadController@store');
 
@@ -73,3 +69,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/leads', 'HomeController@getData')->name('leads');
+
+
+Route::get('/{any}', function () {
+    return view('questions');
+})->where('any', '.*');

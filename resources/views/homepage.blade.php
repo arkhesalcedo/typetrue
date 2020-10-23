@@ -16,7 +16,7 @@
 
                 <div class="tw-mb-4 tw-flex tw-flex-col">
                     <div class="tw-mr-4 tw-mb-4">
-                        <a plain class="custom-button btn-lg text-lg tw-inline-block" href="{{ url('/questions#/what-is-your-gender') }}">
+                        <a plain class="custom-button btn-lg text-lg tw-inline-block" href="{{ url('/what-is-your-gender') }}">
                             Get your FREE quote
                         </a>
                     </div>
