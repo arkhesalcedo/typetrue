@@ -39,7 +39,7 @@
         <div class="sm:tw-flex tw-justify-between">
             <div class="tw-text-center sm:tw-w-1/3 tw-mb-4">
                 <div class="tw-mb-4 tw-min-h-150">
-                    <img class="tw-mb-4 tw-w-10 sm:tw-w-16 tw-inline-block tw-min-h-64" src="{{ url('images/icon-1.png') }}" alt="Fast and accurate online quote">
+                    <img class="tw-mb-4 tw-w-10 sm:tw-w-16 tw-inline-block sm:tw-min-h-64 tw-h-auto" src="{{ url('images/icon-1.png') }}" alt="Fast and accurate online quote">
 
                     <h3 class="tw-uppercase tw-font-semibold tw-text-md sm:tw-text-xl text-blue">Fast and accurate<br> online quote</h3>
                 </div>
@@ -48,7 +48,7 @@
             </div>
             <div class="tw-text-center sm:tw-w-1/3 tw-mb-4">
                 <div class="tw-mb-4 tw-min-h-150">
-                    <img class="tw-mb-4 tw-w-10 sm:tw-w-16 tw-inline-block tw-min-h-64" src="{{ url('images/icon-2.png') }}" alt="Best price guarantee<">
+                    <img class="tw-mb-4 tw-w-10 sm:tw-w-16 tw-inline-block sm:tw-min-h-64 tw-h-auto" src="{{ url('images/icon-2.png') }}" alt="Best price guarantee<">
 
                     <h3 class="tw-uppercase tw-font-semibold tw-text-md sm:tw-text-xl text-blue">Best price<br> guarantee</h3>
                 </div>
@@ -58,7 +58,7 @@
 
             <div class="tw-text-center sm:tw-w-1/3 tw-mb-4">
                 <div class="tw-mb-4 tw-min-h-150">
-                    <img class="tw-mb-4 tw-w-10 sm:tw-w-16 tw-inline-block tw-min-h-64" src="{{ url('images/icon-3.png') }}" alt="Trusted providers">
+                    <img class="tw-mb-4 tw-w-10 sm:tw-w-16 tw-inline-block sm:tw-min-h-64 tw-h-auto" src="{{ url('images/icon-3.png') }}" alt="Trusted providers">
 
                     <h3 class="tw-uppercase tw-font-semibold tw-text-md sm:tw-text-xl text-blue">Trusted<br> providers</h3>
                 </div>
@@ -71,30 +71,30 @@
 
     <div class="gray-bg tw-py-6 tw-mb-10">
         <div class="tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-wrap tw-justify-between tw-items-center">
-            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4">
-                <img class="tw-inline-block home-sub-icons" src="{{ url('images/best-price-logo.svg')  }}" alt="best price">
-            </div>
-
-            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4">
+            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4 tw-mb-4 sm:tw-mb-0">
                 <a target="_blank" title="Click for the Business Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.bbb.org/ca/on/north-york/profile/life-insurance/typetrue-ltd-0107-1376679#sealclick">
                     <img alt="Click for the BBB Business Review of this Insurance - Life in North York ON" src="{{ url('images/bbb-logo-grayscale.png')  }}">
                 </a>
             </div>
 
-            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4">
-                <a href="https://www.zoomerradio.ca/show/tonic/the-tonic-show-podcast/tonic-podcast-october-27th/" target="_blank">
-                    <img class="tw-inline-block home-sub-icons" src="{{ url('images/zoomer-radio-logo.svg')  }}" alt="zoomer">
-                </a>
-            </div>
-
-            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4">
+            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4 tw-mb-4 sm:tw-mb-0">
                 <a href="https://www.mcafeesecure.com/for-consumers" target="_blank">
                     <img class="tw-inline-block home-sub-icons" src="{{ url('images/mcafee-logo.svg')  }}" alt="mcafee">
                 </a>
             </div>
 
-            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4">
+            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4 tw-mb-4 sm:tw-mb-0">
+                <img class="tw-inline-block home-sub-icons" src="{{ url('images/best-price-logo.svg')  }}" alt="best price">
+            </div>
+
+            <div class="tw-text-center tw-w-1/2 sm:tw-w-1/5 tw-px-4 tw-mb-4 sm:tw-mb-0">
                 <img class="tw-inline-block home-sub-icons" src="{{ url('images/ssl-logo.svg')  }}" alt="ssl">
+            </div>
+
+            <div class="tw-text-center tw-w-full sm:tw-w-1/5 tw-px-4">
+                <a href="https://www.zoomerradio.ca/show/tonic/the-tonic-show-podcast/tonic-podcast-october-27th/" target="_blank">
+                    <img class="tw-inline-block home-sub-icons" src="{{ url('images/zoomer-radio-logo.svg')  }}" alt="zoomer">
+                </a>
             </div>
         </div>
     </div>
@@ -159,7 +159,7 @@
 
             <div class="tw-flex tw-flex-wrap md:tw-flex-no-wrap tw-justify-between tw-items-center">
                 <div class="home-company-icons tw-text-center tw-mb-4 tw-px-2">
-                    <img class="tw-inline-block" src="{{ url('images/canada-life-logo.svg') }}" alt="canada life">
+                    <img class="tw-inline-block" src="{{ url('images/equitable-life-logo.svg') }}" alt="equitable life">
                 </div>
                 <div class="home-company-icons tw-text-center tw-mb-4 tw-px-2">
                     <img class="tw-inline-block" src="{{ url('images/empire-life-logo.svg') }}" alt="empire life">
@@ -174,7 +174,7 @@
                     <img class="tw-inline-block" src="{{ url('images/canada-protection-plan-logo.svg') }}" alt="canada protection plan">
                 </div>
                 <div class="home-company-icons tw-text-center tw-mb-4 tw-px-2">
-                    <img class="tw-inline-block" src="{{ url('images/equitable-life-logo.svg') }}" alt="equitable life">
+                    <img class="tw-inline-block" src="{{ url('images/canada-life-logo.svg') }}" alt="canada life">
                 </div>
             </div>
         </div>
