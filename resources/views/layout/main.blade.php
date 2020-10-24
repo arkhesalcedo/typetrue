@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" sizes="60x60" href="{{ url('apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url('favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url('favicon-16x16.png') }}">
-    <link rel="manifest" href="{{ url('site.webmanifest"') }}>
+    <link rel="manifest" href="{{ url('site.webmanifest"') }}">
     <link rel="mask-icon" href="{{ url('safari-pinned-tab.svg') }}" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
@@ -52,6 +52,71 @@
         <img height="1" width="1" src="https://www.facebook.com/tr?id=626263161104702&ev=PageView&noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
+
+    <script type="application/ld+json">
+        {
+           "@context": "http:\/\/schema.org",
+           "@type": "LocalBusiness",
+        "url": "https://typetrue.ca/",
+           "name": "Type True",
+           "description":"People with diabetes often think they wonít qualify for life insurance ñ or that it wonít be affordable. The truth is that most Diabetics do pay too much for life insurance. TypeTrue works with life insurance professionals to get you the guaranteed best deal on life insurance.We do that first by understanding your diabetic condition. Everyone is unique.",
+        "logo": "https://typetrue.ca/images/logo.png",
+           "image": [
+           {
+           "@type": "imageObject",
+           "url": "https://typetrue.ca/images/logo.png"
+            }
+            ],
+           "email": "info@typetrue.com",
+           "telephone": "+1 8778973878",
+           "address": {
+               "@type": "PostalAddress",
+               "streetAddress": "Suite 706, 1 Concorde Gate",
+               "addressLocality": "North York, ON",
+               "postalCode": "M3C3N6",
+               "addressCountry": "USA"
+           },
+              "sameAs": [
+              ""
+           ],
+           "geo": {
+               "@type": "GeoCoordinates",
+               "latitude": "43.72888",
+               "longitude": "-79.329263"
+           },
+           "openingHours": [
+               "Mon to Sun 00:00-00:00"
+           ],
+           "priceRange": "$"
+           }
+        }
+    </script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Type True",
+          "url": "https://typetrue.ca/",
+          "logo": "https://typetrue.ca/images/logo.png",
+          "contactPoint": [
+              {
+                  "@type": "ContactPoint",
+                  "telephone": "+1 8778973878",
+                  "contactType": "customer service",
+                  "areaServed": [
+                      "USA"
+                  ],
+                  "availableLanguage": [
+                      "English"
+                  ]
+              }
+          ],
+          "sameAs": [
+               ""
+          ]
+        }
+    </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
