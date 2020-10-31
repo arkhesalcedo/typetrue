@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Get the best price on life insurance for type two diabetics."/>
+    <meta name="keywords" content="diabetes life insurance quotes, best life insurance for type 2 diabetes, best term life insurance for diabetics" />
+    <meta name="description" content="With TypeTrue, find the best life insurance quotes from the best insurance companies for type 2 diabetes. Find diabetes insurance plans that offer value."/>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="60x60" href="{{ url('apple-touch-icon.png') }}">
@@ -19,7 +20,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Find the Best Life Insurance Companies for Diabetics | TypeTrue</title>
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
     <!-- Styles -->
