@@ -6,7 +6,7 @@ export default {
         email: null,
         phone: null,
     },
-    
+
     fields: {
         basic: {
             age: null,
@@ -20,7 +20,7 @@ export default {
             feet: null,
             inches: null,
             pounds: null
-        }, 
+        },
         advanced: {
             hasComplications: false,
         }
@@ -29,7 +29,7 @@ export default {
     doNotValidateFields: [
         'yearsAgo',
         'monthsAgo',
-        'a1c',
+        'a1cA',
         'a1cB'
     ],
 

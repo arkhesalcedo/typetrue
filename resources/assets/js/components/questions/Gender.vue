@@ -11,11 +11,18 @@
 </template>
 
 <script>
-    import { mapMutations, mapGetters, mapActions } from 'vuex';
+    import { mapMutations, mapActions } from 'vuex';
     export default {
+        data() {
+            return {
+                preSelectedA1c: null
+            }
+        },
+
         methods: {
             ...mapActions({
-                createLead: 'typetrue/createLead'
+                createLead: 'typetrue/createLead',
+                updateLead: 'typetrue/updateLead'
             }),
 
             ...mapMutations({
@@ -28,6 +35,10 @@
 
                 await this.createLead({ gender });
 
+                if (this.preSelectedA1c) {
+                    await this.updateLead({ a1c: this.preSelectedA1c });
+                }
+
                 window.scrollTo(0, 0);
 
                 await this.$router.push({ name: 'age'});
@@ -35,6 +46,12 @@
         },
 
         mounted() {
+            this.preSelectedA1c = this.$route.query.a1c;
+
+            if (this.preSelectedA1c) {
+                this.setBasicField({ field: 'a1c', value: this.preSelectedA1c });
+            }
+
             this.setProgress({ value: 10 });
         }
     }

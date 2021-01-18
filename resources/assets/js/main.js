@@ -6,12 +6,14 @@ import router from './routes';
 import storeFactory from './store.js';
 import VueAnalytics from 'vue-analytics'
 import ElementUI from 'element-ui';
+import VueCarousel from 'vue-carousel';
 
 import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI);
 Vue.use(Vuex);
 Vue.use(VueRouter);
+Vue.use(VueCarousel);
 Vue.use(VueAnalytics, {
     id: 'UA-114824705-1',
     router
@@ -20,12 +22,12 @@ Vue.use(VueAnalytics, {
 const store = storeFactory();
 
 import ProgressBar from './components/questions/Progress';
-import { Slide } from 'vue-burger-menu'
+import SideMenu from './components/global/SideMenu'
 import RequestCallbackForm from './components/global/RequestCallbackForm'
 import LeadsTable from './components/dashboard/LeadsTable';
 
 Vue.component('progress-bar', ProgressBar);
-Vue.component('burger-menu', Slide);
+Vue.component('side-menu', SideMenu);
 Vue.component('request-callback', RequestCallbackForm);
 Vue.component('leads-table', LeadsTable);
 

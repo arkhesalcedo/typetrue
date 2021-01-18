@@ -119,6 +119,7 @@
         }
     </script>
 </head>
+
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZBHRFP"
@@ -128,56 +129,34 @@
         <div class="tw-flex-grow">
             <div class="tw-w-full tw-absolute">
                 <div class="tw-container tw-mx-auto tw-flex tw-justify-between tw-items-center tw-p-4">
-                    <a href="{{ url('/') }}" class="tw-w-1/4 tw-mb-4 sm:tw-mb-0 sm:tw-w-1/4">
-                        <img src="{{ url('images/logo.png') }}" alt="Type True">
-                    </a>
+                    <div class="tw-mr-4 tw-w-2/3 sm:tw-w-auto">
+                        <a href="{{ url('/') }}" class="tw-mb-4">
+                            <img src="{{ url('images/typetrue-logo.png') }}" alt="Type True" class="tw-mb-2">
+                        </a>
+
+                        <p class="tw-text-blue text-small">Type 2 life insurance specialists</p>
+                    </div>
 
                     <div class="tw-flex tw-items-center">
-                        <div class="tw-flex tw-flex-col">
-                            <div class="tw-flex tw-text-xs sm:tw-text-xl tw-font-semibold">
-                                <span>PHONE:</span>
+                        <div class="tw-items-center tw-mr-4 tw-hidden sm:tw-flex">
+                            <img src="{{ url('images/phone-icon.png') }}" alt="Call Us" class="tw-mr-4">
 
-                                <div class="tw-flex tw-flex-col tw-ml-2">
-                                    <span class="text-blue"><a href="tel:+18778973878" class="hover:tw-underline">1-877-897-3878</a></span>
-                                </div>
-                            </div>
-
-                            @unless (Request::is('contact-us'))
-                                <a plain class="custom-button-blue btn-sm tw-hidden md:tw-inline-block tw-text-center" href="{{ url('/contact-us') }}">
-                                    Request A Call Back
-                                </a>
-                            @endunless
+                            <span class="tw-text-blue"><a href="tel:+18778973878" class="hover:tw-underline tw-font-black tw-text-xl">1-877-897-3878</a></span>
                         </div>
 
-                        <div class="tw-ml-4 tw-z-20">
-                            <burger-menu right noOverlay disableOutsideClick :closeOnNavigation="true">
-                                <a id="home" href="{{ url('/homepage') }}">
-                                    <span>Home</span>
-                                </a>
-
-                                <a id="home" href="{{ url('/contact-us') }}">
-                                    <span>Contact Us</span>
-                                </a>
-
-                                <a id="home" href="{{ url('/privacy-policy') }}">
-                                    <span>Privacy Policy</span>
-                                </a>
-
-                                <a id="home" href="{{ url('/terms-of-use') }}">
-                                    <span>Terms of Use</span>
-                                </a>
-                            </burger-menu>
+                        <div class="tw-z-20">
+                            <side-menu menu-image="{{ url('images/ic-menu.png') }}" close-menu-image="{{ url('images/ic-close.png') }}"></side-menu>
                         </div>
                     </div>
                 </div>
 
-                @unless (Request::is('contact-us'))
-                    <div class="tw-text-right tw-container tw-mx-auto tw-px-4">
-                        <a plain class="custom-button-blue btn-sm tw-inline-block md:tw-hidden tw-text-center" href="{{ url('/contact-us') }}">
-                            Request A Call Back
-                        </a>
+                <div class="tw-container tw-mx-auto tw-px-4 tw-block sm:tw-hidden">
+                    <div class="tw-flex tw-items-center tw-mr-4">
+                        <img src="{{ url('images/phone-icon.png') }}" alt="Call Us" class="tw-mr-4">
+
+                        <span class="tw-text-blue"><a href="tel:+18778973878" class="hover:tw-underline tw-font-black tw-text-xl">1-877-897-3878</a></span>
                     </div>
-                @endunless
+                </div>
             </div>
 
             @yield('banner')
@@ -185,36 +164,53 @@
             @yield('content')
         </div>
 
-        <div>
-            @unless (Request::is('questions'))
-                <div class="footer bg-blue tw-py-6">
-                    <div class="tw-container tw-mx-auto tw-px-4">
-                        <div class="tw-text-center">
-                            <h5 class="tw-text-center tw-text-white tw-text-2xl sm:tw-text-4xl tw-font-semibold tw-mb-4">
-                                <a href="{{ url('/contact-us') }}" class="hover:tw-underline">Contact Us</a>
-                            </h5>
+        <div class="footer tw-py-10">
+            <div class="tw-container tw-mx-auto tw-px-4">
+                <div class="tw-flex tw-justify-center md:tw-justify-start">
+                    <img src="{{ url('images/logo-gray.png') }}" alt="TypeTrue" class="tw-mb-5">
+                </div>
 
-                            <p class="tw-text-white tw-mb-4"><a href="tel:+18778973878" class="hover:tw-underline">Phone: 1-877-TYPE-TRU</a></p>
+                <div class="tw-flex tw-justify-between tw-flex-col md:tw-flex-row tw-border-b tw-pb-5 footer-border tw-mb-5 tw-items-center">
+                    <div class="tw-flex tw-flex-col sm:tw-flex-row sm:tw--ml-4 tw--mr-2 tw-mb-5 md:tw-mb-0">
+                        <a href="{{ url('/privacy-policy') }}" class="hover:tw-underline tw-text-center sm:tw-text-left tw-mb-5 sm:tw-mb-0 tw-mx-4 tw-text-white tw-text-lg tw-font-black">Privacy Policy</a>
+                        <a href="{{ url('/terms-of-use') }}" class="hover:tw-underline tw-text-center sm:tw-text-left tw-mb-5 sm:tw-mb-0 tw-mx-4 tw-text-white tw-text-lg tw-font-black">Terms of Use</a>
+                        <a href="{{ url('/contact-us') }}" class="hover:tw-underline tw-text-center sm:tw-text-left tw-mx-4 tw-text-white tw-text-lg tw-font-black">Contact Us</a>
+                    </div>
 
-                            <address class="tw-text-white tw-mb-4">
-                                Suite 706, 1 Concorde Gate<br>
-                                North York, ON<br>
-                                M3C3N6
-                            </address>
-
-                            <p class="tw-text-white"><a href="mailto:info@typetrue.ca" class="hover:tw-underline">info@typetrue.ca</a></p>
-                        </div>
+                    <div class="tw-flex tw--mx-4">
+                        <a href="https://www.facebook.com/typetrue.ca" class="sm:tw-mx-2">
+                            <img src="{{ url('images/ic-facebook.png') }}" alt="Facebook">
+                        </a>
+                        <a href="#" class="sm:tw-mx-2">
+                            <img src="{{ url('images/ic-instagram.png') }}" alt="Instagram">
+                        </a>
                     </div>
                 </div>
-            @endunless
 
-            <div class="footer bottom-footer bg-blue tw-py-6 tw-border-t ">
-                <div class="tw-container tw-mx-auto tw-px-4">
-                    <div class="tw-text-center">
-                        <p class="tw-text-white tw-mb-4">
-                            <a href="{{ url('/privacy-policy') }}" class="hover:tw-underline">Privacy Policy</a> | <a href="{{ url('/terms-of-use') }}" class="hover:tw-underline">Terms of Use</a>
-                        </p>
+                <div class="tw-flex tw-justify-between tw-flex-col md:tw-flex-row tw-items-center">
+                    <div class="tw-flex tw-flex-wrap sm:tw-flex-no-wrap tw--mx-4 tw-mb-5 md:tw-mb-0">
+                        <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-1/2 sm:tw-w-auto">
+                            <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-best-price.svg')  }}" alt="best price">
+                        </div>
+
+                        <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-1/2 sm:tw-w-auto">
+                            <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-ssl.svg')  }}" alt="ssl">
+                        </div>
+
+                        <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-1/2 sm:tw-w-auto">
+                            <a href="https://www.mcafeesecure.com/for-consumers" target="_blank">
+                                <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-mcafee.svg')  }}" alt="mcafee">
+                            </a>
+                        </div>
+
+                        <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-1/2 sm:tw-w-auto">
+                            <a href="https://www.zoomerradio.ca/show/tonic/the-tonic-show-podcast/tonic-podcast-october-27th/" target="_blank">
+                                <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-zoomer-radio.svg')  }}" alt="zoomer">
+                            </a>
+                        </div>
                     </div>
+
+                    <p class="tw-text-white tw-text-sm tw-opacity-50">&copy; 2021 TypeTrue</p>
                 </div>
             </div>
         </div>

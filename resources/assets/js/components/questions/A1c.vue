@@ -82,6 +82,10 @@
 
         mounted() {
             this.setProgress({ value: 50 });
+
+            if (this.fields.basic.a1c) {
+                this.$router.push({ name: 'height' }).finally();
+            }
         }
     }
 </script>

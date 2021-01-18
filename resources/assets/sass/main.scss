@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,900");
+
 @tailwind base;
 
 @tailwind components;
@@ -9,12 +11,13 @@ $secondary: #20336F;
 $thirdy: #538CCF;
 $yellow: #FFECCA;
 $blue: #20336f;
-$gray: #626162;
+$gray: #343A40;
 $light-gray: #f6f3f3;
 $light-font-color: #747473;
 
 * {
-    font-family: 'Helvetica', 'Open Sans', sans-serif;
+    font-family: 'Nunito', 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 p, h1, h2, h3, h4, h5, h6, li, div, address {
@@ -32,7 +35,7 @@ img {
             color: $thirdy;
             border-color: $thirdy;
         }
-    
+
         &.is-process {
             color: $secondary;
             border-color: $secondary;
@@ -89,8 +92,26 @@ button {
     }
 }
 
+.max-width-card {
+    @media (min-width: 768px) {
+        max-width: 50%;
+    }
+
+    @media (min-width: 1024px) {
+        max-width: 30%;
+    }
+}
+
+.text-heading {
+    font-size: 40px;
+}
+
 .text-lg {
     font-size: 18px !important;
+}
+
+.text-small {
+    font-size: 15px !important;
 }
 
 .el-input__inner {
@@ -117,11 +138,56 @@ button {
     color: $thirdy !important;
 }
 
-.banner {
-    background-image: url('../images/header-banner.jpg');
-    @media handheld {
-        background-size: auto 100%;
+.VueCarousel-wrapper {
+    padding-bottom: 10px;
+}
+
+.light-blue-bg {
+  background-color: #99ABBC;
+}
+
+.accent-background {
+    background-color: #F2F8FF;
+}
+
+.beige-background {
+    background-color: #F9F7F3;
+}
+
+.slide-item {
+    min-height: 350px;
+}
+
+.VueCarousel-dot {
+    width: 30px !important;
+    height: 5px !important;
+    padding: 5px !important;
+    border-radius: 100px !important;
+    outline: none !important;
+}
+
+.VueCarousel-dot-container {
+    margin-top: 0px !important;
+}
+
+.banner-container {
+    @extend .beige-background;
+
+    .banner {
+        background-image: url('../images/img-woman.png');
+
+        @media (max-width: 640px) {
+            background-size: auto 50%;
+        }
+
+        @media (max-width: 475px) {
+            background-image: none;
+        }
     }
+}
+
+.footer {
+    background: $gray;
 }
 
 .footer-banner {
@@ -135,6 +201,18 @@ button {
     color: #FFF !important;
     background-color: $primary !important;
     border-color: $primary !important;
+}
+
+.homepage-selection {
+    min-width: 120px;
+
+    @media (max-width: 640px) {
+        max-width: 220px;
+    }
+
+    @media (max-width: 475px) {
+        max-width: 100%;
+    }
 }
 
 .custom-button-blue {
@@ -157,8 +235,8 @@ button {
 }
 
 .home-sub-icons {
-    width: 180px;
-    height: auto;
+    width: auto;
+    height: 40px;
 }
 
 .home-company-icons {
@@ -188,8 +266,17 @@ button {
     min-height: 180px;
 }
 
+.el-collapse {
+    border: none !important;
+}
+
 .el-collapse-item__header, .el-collapse-item__wrap {
     background: transparent !important;
+    border: none !important;
+}
+
+.el-collapse-item__content {
+    padding: 25px 0px 0px !important;
 }
 
 .el-collapse-item__header {
@@ -198,7 +285,6 @@ button {
     }
 
     .el-icon-minus {
-        background: $thirdy !important;
         display: none;
     }
 
@@ -223,6 +309,10 @@ button {
 
 .bottom-footer {
     border-color: #34457c;
+}
+
+.footer-border {
+    border-color: #5D6165;
 }
 
 .bbb-logo {
