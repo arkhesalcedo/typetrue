@@ -14,7 +14,9 @@ const tailwindcss = require('tailwindcss');
  */
 
 mix.js('resources/assets/js/main.js', 'public/js')
+    .version()
    .sass('resources/assets/sass/main.scss', 'public/css')
+    .version()
    .options({
       processCssUrls: false,
       postCss: [ tailwindcss('./tailwind.config.js') ],
