@@ -176,12 +176,38 @@ button {
     .banner {
         background-image: url('../images/img-woman.png');
 
+        @media (max-height: 768px) {
+            align-items: flex-end;
+        }
+
+        @media (max-width: 1024px) {
+            background-size: auto 80%;
+        }
+
         @media (max-width: 640px) {
             background-size: auto 50%;
         }
 
         @media (max-width: 475px) {
             background-image: none;
+        }
+
+        h1 {
+            @media (max-height: 768px) {
+                font-size: 1.875rem;
+            }
+        }
+
+        .banner-buttons {
+            @media (max-height: 768px) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .banner-images {
+            img {
+                max-height: 50px;
+            }
         }
     }
 }

@@ -2,17 +2,17 @@
 
 @section('banner')
     <div class="tw-h-auto sm:tw-h-screen banner-container">
-        <div class="tw-container tw-mx-auto banner tw-h-auto sm:tw-h-screen tw-bg-right-bottom tw-bg-no-repeat tw-flex tw-pt-40 sm:tw-pt-0 sm:tw-items-center">
+        <div class="tw-container tw-mx-auto banner tw-h-auto sm:tw-h-screen tw-bg-right-bottom tw-bg-no-repeat tw-flex tw-pt-40 xl:tw-pt-0 xl:tw-items-center">
             <div class="tw-px-4 tw-relative">
-                <h1 class="tw-text-blue tw-text-3xl sm:tw-text-5xl tw-font-black tw-mb-4 tw-leading-tight tw-w-full lg:tw-w-1/2">
+                <h1 class="tw-text-blue tw-text-3xl xl:tw-text-5xl tw-font-black tw-mb-4 tw-leading-tight tw-w-full lg:tw-w-1/2">
                     Get your guaranteed best price on life insurance for type 2 diabetics
                 </h1>
 
-                <p class="tw-text-gray tw-mb-4 tw-w-full tw-text-2xl md:tw-w-1/2">Did you know that many type 2 diabetics can get the same low price as non-diabetics? Find out if you qualify.</p>
+                <p class="tw-text-gray tw-mb-4 tw-w-full tw-text-xl sm:tw-text-2xl md:tw-w-1/2">Did you know that many type 2 diabetics can get the same low price as non-diabetics? Find out if you qualify.</p>
 
-                <p class="tw-text-gray tw-font-black tw-mb-4 tw-text-xl">My latest A1C reading is:</p>
+                <p class="tw-text-gray tw-font-black tw-mb-4 w-text-lg sm:tw-text-xl">My latest A1C reading is:</p>
 
-                <div class="tw-mb-10 md:tw-mb-32 tw-flex tw-flex-col sm:tw-flex-row">
+                <div class="tw-mb-10 xl:tw-mb-32 tw-flex tw-flex-col sm:tw-flex-row banner-buttons">
                     <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg" href="{{ url('/what-is-your-gender?a1c=6.9') }}">
                         Less than<br> <span class="tw-font-black">7</span>
                     </a>
@@ -30,7 +30,7 @@
                     </a>
                 </div>
 
-                <div class="tw-flex tw-items-center tw-mb-10 tw-justify-between sm:tw-justify-start">
+                <div class="tw-flex tw-items-center tw-mb-10 tw-justify-between sm:tw-justify-start banner-images">
                     <a target="_blank" class="tw-inline-block tw-mr-4" title="Click for the Business Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.bbb.org/ca/on/north-york/profile/life-insurance/typetrue-ltd-0107-1376679#sealclick">
                         <img alt="Click for the BBB Business Review of this Insurance - Life in North York ON" src="{{ url('images/img-bbb.png')  }}">
                     </a>
@@ -52,7 +52,7 @@
             <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
                 <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
                     <div class="tw-mb-4 tw-min-h-150">
-                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-fast.png') }}" alt="Fast and accurate online quote">
+                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-fast.svg') }}" alt="Fast and accurate online quote">
 
                         <h3 class="tw-font-semibold tw-text-2xl">Fast &amp; Accurate<br> Online Quote</h3>
                     </div>
@@ -64,7 +64,7 @@
             <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
                 <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
                     <div class="tw-mb-4 tw-min-h-150">
-                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-guarantee.png') }}" alt="Best price guarantee<">
+                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-guarantee.svg') }}" alt="Best price guarantee<">
 
                         <h3 class="tw-font-semibold tw-text-2xl">Best Price<br> Guarantee</h3>
                     </div>
@@ -76,7 +76,7 @@
             <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
                 <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
                     <div class="tw-mb-4 tw-min-h-150">
-                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-trust.png') }}" alt="Trusted providers">
+                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-trust.svg') }}" alt="Trusted providers">
 
                         <h3 class="tw-font-semibold tw-text-2xl">Trusted<br> Providers</h3>
                     </div>
@@ -88,7 +88,7 @@
             <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
                 <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
                     <div class="tw-mb-4 tw-min-h-150">
-                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-tech.png') }}" alt="High Tech<">
+                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-tech.svg') }}" alt="High Tech<">
 
                         <h3 class="tw-font-semibold tw-text-2xl">High Tech</h3>
                     </div>
@@ -100,7 +100,7 @@
             <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
                <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
                    <div class="tw-mb-4 tw-min-h-150">
-                       <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-touch.png') }}" alt="High Touch">
+                       <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-touch.svg') }}" alt="High Touch">
 
                        <h3 class="tw-font-semibold tw-text-2xl">High Touch</h3>
                    </div>
@@ -134,8 +134,8 @@
             </div>
 
             <div class="tw-flex tw-p-10 tw-rounded-lg tw-shadow-lg tw-bg-white">
-                <div class="tw-hidden md:tw-block">
-                    <img src="{{ url('images/ic-shield.png')  }}" alt="Our Guarantee" class="tw-w-full">
+                <div class="tw-hidden md:tw-block tw-w-1/6">
+                    <img src="{{ url('images/ic-shield.svg')  }}" alt="Our Guarantee" class="tw-w-full">
                 </div>
 
                 <div class="md:tw-pl-10">

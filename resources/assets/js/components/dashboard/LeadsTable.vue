@@ -116,8 +116,6 @@
             axios.get('leads').then((result) => {
                if (result && result.data) {
                    this.data = result.data;
-
-                   console.log(this.data);
                }
             });
         }

@@ -40,7 +40,7 @@
 
         methods: {
             submit() {
-                console.log('submitted');
+
             }
         }
     }
