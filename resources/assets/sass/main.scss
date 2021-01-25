@@ -174,22 +174,14 @@ button {
     @extend .beige-background;
 
     .banner {
-        background-image: url('../images/img-woman.png');
-
         @media (max-height: 768px) {
-            align-items: flex-end;
+            align-items: flex-start !important;
         }
-
-        @media (max-width: 1024px) {
-            background-size: auto 80%;
-        }
-
-        @media (max-width: 640px) {
-            background-size: auto 50%;
-        }
-
-        @media (max-width: 475px) {
-            background-image: none;
+        
+        @media (min-height: 768px) {
+            @media (min-width: 1025px) {
+                min-height: calc(100vh - 113px);
+            }
         }
 
         h1 {
@@ -230,11 +222,7 @@ button {
 }
 
 .homepage-selection {
-    min-width: 120px;
-
-    @media (max-width: 640px) {
-        max-width: 220px;
-    }
+    min-width: 112px;
 
     @media (max-width: 475px) {
         max-width: 100%;

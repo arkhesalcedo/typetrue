@@ -21,7 +21,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Find the Best Life Insurance Companies for Diabetics | TypeTrue</title>
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="images/x-icon" href="{{ asset('favicon.ico') }}">
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -127,7 +127,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <div id="app" class="tw-min-h-screen tw-flex tw-flex-col tw-justify-between @yield('pageClass')">
         <div class="tw-flex-grow">
-            <div class="tw-w-full tw-absolute">
+            <div class="tw-w-full tw-pb-10 sm:tw-pb-0 @yield('headerClass')">
                 <div class="tw-container tw-mx-auto tw-flex tw-justify-between tw-items-center tw-p-4">
                     <div class="tw-mr-4 tw-w-2/3 sm:tw-w-auto">
                         <a href="{{ url('/') }}" class="tw-mb-4">

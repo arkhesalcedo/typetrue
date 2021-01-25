@@ -1,18 +1,20 @@
 @extends('layout.main')
 
+@section('headerClass', 'beige-background')
+
 @section('banner')
-    <div class="tw-h-auto sm:tw-h-screen banner-container">
-        <div class="tw-container tw-mx-auto banner tw-h-auto sm:tw-h-screen tw-bg-right-bottom tw-bg-no-repeat tw-flex tw-pt-40 xl:tw-pt-0 xl:tw-items-center">
-            <div class="tw-px-4 tw-relative">
-                <h1 class="tw-text-blue tw-text-3xl xl:tw-text-5xl tw-font-black tw-mb-4 tw-leading-tight tw-w-full lg:tw-w-1/2">
+    <div class="banner-container">
+        <div class="tw-container tw-mx-auto banner tw-box-border tw-flex-col lg:tw-flex-row tw-flex tw-items-end tw-w-full tw-px-4">
+            <div class="tw-w-full lg:tw-w-1/2 xl:tw-w-3/5">
+                <h1 class="tw-text-blue tw-text-3xl xl:tw-text-5xl tw-font-black tw-mb-4 tw-leading-tight">
                     Get your guaranteed best price on life insurance for type 2 diabetics
                 </h1>
 
-                <p class="tw-text-gray tw-mb-4 tw-w-full tw-text-xl sm:tw-text-2xl md:tw-w-1/2">Did you know that many type 2 diabetics can get the same low price as non-diabetics? Find out if you qualify.</p>
+                <p class="tw-text-gray tw-mb-4 tw-w-full tw-text-xl sm:tw-text-2xl">Did you know that many type 2 diabetics can get the same low price as non-diabetics? Find out if you qualify.</p>
 
                 <p class="tw-text-gray tw-font-black tw-mb-4 w-text-lg sm:tw-text-xl">My latest A1C reading is:</p>
 
-                <div class="tw-mb-10 xl:tw-mb-32 tw-flex tw-flex-col sm:tw-flex-row banner-buttons">
+                <div class="tw-mb-10 xl:tw-mb-32 tw-flex tw-flex-col sm:tw-flex-row banner-buttons tw-flex-wrap">
                     <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg" href="{{ url('/what-is-your-gender?a1c=6.9') }}">
                         Less than<br> <span class="tw-font-black">7</span>
                     </a>
@@ -39,6 +41,10 @@
                         <img alt="Click for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" src="{{ url('images/img-google.png')  }}">
                     </a>
                 </div>
+            </div>
+
+            <div class="tw-w-full tw-hidden md:tw-flex tw-justify-center lg:tw-w-1/2 xl:tw-w-2/5">
+                <img class="tw-inline-block" src="{{ url('images/img-woman.png') }}" alt="Banner">
             </div>
         </div>
     </div>
