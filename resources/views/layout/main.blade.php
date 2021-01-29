@@ -131,7 +131,7 @@
                 <div class="tw-container tw-mx-auto tw-flex tw-justify-between tw-items-center tw-p-4">
                     <div class="tw-mr-4 tw-w-2/3 sm:tw-w-auto">
                         <a href="{{ url('/') }}" class="tw-mb-4">
-                            <img src="{{ url('images/typetrue-logo.png') }}" alt="Type True" class="tw-mb-2">
+                            <img src="{{ url('images/type-true-logo.svg') }}" alt="Type True" class="tw-mb-2">
                         </a>
 
                         <p class="tw-text-blue text-small">Type 2 life insurance specialists</p>
@@ -139,20 +139,20 @@
 
                     <div class="tw-flex tw-items-center">
                         <div class="tw-items-center tw-mr-4 tw-hidden sm:tw-flex">
-                            <img src="{{ url('images/phone-icon.png') }}" alt="Call Us" class="tw-mr-4">
+                            <img src="{{ url('images/ic-phone-call.svg') }}" alt="Call Us" class="tw-mr-4">
 
                             <span class="tw-text-blue"><a href="tel:+18778973878" class="hover:tw-underline tw-font-black tw-text-xl">1-877-897-3878</a></span>
                         </div>
 
                         <div class="tw-z-20">
-                            <side-menu menu-image="{{ url('images/ic-menu.png') }}" close-menu-image="{{ url('images/ic-close.png') }}"></side-menu>
+                            <side-menu menu-image="{{ url('images/ic-menu.svg') }}" close-menu-image="{{ url('images/ic-close.svg') }}"></side-menu>
                         </div>
                     </div>
                 </div>
 
                 <div class="tw-container tw-mx-auto tw-px-4 tw-block sm:tw-hidden">
                     <div class="tw-flex tw-items-center tw-mr-4">
-                        <img src="{{ url('images/phone-icon.png') }}" alt="Call Us" class="tw-mr-4">
+                        <img src="{{ url('images/ic-phone-call.svg') }}" alt="Call Us" class="tw-mr-4">
 
                         <span class="tw-text-blue"><a href="tel:+18778973878" class="hover:tw-underline tw-font-black tw-text-xl">1-877-897-3878</a></span>
                     </div>
@@ -167,7 +167,7 @@
         <div class="footer tw-py-10">
             <div class="tw-container tw-mx-auto tw-px-4">
                 <div class="tw-flex tw-justify-center md:tw-justify-start">
-                    <img src="{{ url('images/logo-gray.png') }}" alt="TypeTrue" class="tw-mb-5">
+                    <img src="{{ url('images/logo-gray.svg') }}" alt="TypeTrue" class="tw-mb-5">
                 </div>
 
                 <div class="tw-flex tw-justify-between tw-flex-col md:tw-flex-row tw-border-b tw-pb-5 footer-border tw-mb-5 tw-items-center">
@@ -179,10 +179,10 @@
 
                     <div class="tw-flex tw--mx-4">
                         <a href="https://www.facebook.com/typetrue.ca" class="sm:tw-mx-2">
-                            <img src="{{ url('images/ic-facebook.png') }}" alt="Facebook">
+                            <img src="{{ url('images/ic-facebook.svg') }}" alt="Facebook">
                         </a>
                         <a href="#" class="sm:tw-mx-2">
-                            <img src="{{ url('images/ic-instagram.png') }}" alt="Instagram">
+                            <img src="{{ url('images/ic-instagram.svg') }}" alt="Instagram">
                         </a>
                     </div>
                 </div>

@@ -38,7 +38,7 @@
                     </a>
 
                     <a target="_blank" class="tw-inline-block" title="GClick for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.google.com/search?sxsrf=ALeKk02wN0C5QkqI3ZX3yOe-sfD4T93mzg%3A1610406444592&ei=LNr8X8PFI-O9ggfplLGwBQ&q=typetrue.ca&oq=typetrue.ca&gs_lcp=CgZwc3ktYWIQAzICCCZQyC5YyC5grzZoAHAAeACAAVmIAVmSAQExmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjDi8vA_5TuAhXjnuAKHWlKDFYQ4dUDCA0&uact=5#lrd=0x89d4cdba2710f7ed:0x1e3c1a3a12ea747a,1,,,">
-                        <img alt="Click for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" src="{{ url('images/img-google.png')  }}">
+                        <img alt="Click for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" src="{{ url('images/img-google.svg')  }}">
                     </a>
                 </div>
             </div>
@@ -197,11 +197,11 @@
                 <slide>
                     <div class="tw-bg-white tw-shadow-md tw-p-10 tw-rounded-lg tw-mx-2 slide-item tw-h-full">
                         <div class="tw-flex tw-mb-10">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
                         </div>
 
                         <p class="tw-text-gray tw-mb-4 tw-text-lg">I was able to compare prices for different coverage and it was awesome! The real value was knowing i have the information and confidence when purchasing term insurance. This has been a life saver for Type 2 Diabetics like me.</p>
@@ -213,11 +213,11 @@
                 <slide>
                     <div class="tw-bg-white tw-shadow-md tw-p-10 tw-rounded-lg tw-mx-2 slide-item tw-h-full">
                         <div class="tw-flex tw-mb-10">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
                         </div>
 
                         <p class="tw-text-gray tw-mb-4 tw-text-lg">I worked with TypeTrue and found them very helpful and responsive. I would highly recommend them for your diabetic life insurance needs!</p>
@@ -229,11 +229,11 @@
                 <slide>
                     <div class="tw-bg-white tw-shadow-md tw-p-10 tw-rounded-lg tw-mx-2 slide-item tw-h-full">
                         <div class="tw-flex tw-mb-10">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star.png') }}" alt="Star" class="tw-mr-2">
-                            <img src="{{ url('images/ic-star-off.png') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star.svg') }}" alt="Star" class="tw-mr-2">
+                            <img src="{{ url('images/ic-star-off.svg') }}" alt="Star" class="tw-mr-2">
                         </div>
 
                         <p class="tw-text-gray tw-mb-4 tw-text-lg">When my father turned 60, I was put in charge of helping him get his retirement plan in order - which included his life insurance. My pops opted out of ever finding something for himself, since most agents wouldn’t even consider a type-2 diabetic with spotty health.</p>
@@ -252,9 +252,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">Why should I choose TypeTrue?</span>
                     </div>
@@ -268,9 +268,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">What companies does TypeTrue represent?</span>
                     </div>
@@ -285,9 +285,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How confidential is my information?</span>
                     </div>
@@ -301,9 +301,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">Do you just give price quotes?</span>
                     </div>
@@ -317,9 +317,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How does TypeTrue pick the companies it represents?</span>
                     </div>
@@ -333,9 +333,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How much life insurance do I need?</span>
                     </div>
@@ -349,9 +349,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">What’s the difference between term and whole life insurance?</span>
                     </div>
@@ -365,9 +365,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How do I apply for a policy?</span>
                     </div>
@@ -381,9 +381,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">Do I have to take a medical exam?</span>
                     </div>
@@ -397,9 +397,9 @@
             <el-collapse-item class="accent-background tw-rounded-lg tw-px-10 tw-py-5 tw-mb-5">
                 <template slot="title">
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
-                        <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
+                        <img src="{{ url('images/btn-plus.svg') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.svg') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">I already have a life insurance policy. What should I do with it?</span>
                     </div>
