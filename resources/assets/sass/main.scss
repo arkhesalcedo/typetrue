@@ -177,7 +177,7 @@ button {
         @media (max-height: 768px) {
             align-items: flex-start !important;
         }
-        
+
         @media (min-height: 768px) {
             @media (min-width: 1025px) {
                 min-height: calc(100vh - 113px);

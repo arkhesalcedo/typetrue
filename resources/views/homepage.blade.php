@@ -70,7 +70,7 @@
             <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
                 <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
                     <div class="tw-mb-4 tw-min-h-150">
-                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-guarantee.svg') }}" alt="Best price guarantee<">
+                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-guarantee.svg') }}" alt="Best price guarantee">
 
                         <h3 class="tw-font-semibold tw-text-2xl">Best Price<br> Guarantee</h3>
                     </div>
@@ -94,7 +94,7 @@
             <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
                 <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
                     <div class="tw-mb-4 tw-min-h-150">
-                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-tech.svg') }}" alt="High Tech<">
+                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-tech.svg') }}" alt="High Tech">
 
                         <h3 class="tw-font-semibold tw-text-2xl">High Tech</h3>
                     </div>
@@ -254,7 +254,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">Why should I choose TypeTrue?</span>
                     </div>
@@ -270,7 +270,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">What companies does TypeTrue represent?</span>
                     </div>
@@ -287,7 +287,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How confidential is my information?</span>
                     </div>
@@ -303,7 +303,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">Do you just give price quotes?</span>
                     </div>
@@ -319,7 +319,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How does TypeTrue pick the companies it represents?</span>
                     </div>
@@ -335,7 +335,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How much life insurance do I need?</span>
                     </div>
@@ -351,7 +351,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">What’s the difference between term and whole life insurance?</span>
                     </div>
@@ -367,7 +367,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">How do I apply for a policy?</span>
                     </div>
@@ -383,7 +383,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">Do I have to take a medical exam?</span>
                     </div>
@@ -399,7 +399,7 @@
                     <div class="tw-flex tw-items-center tw-flex-row-reverse tw-justify-between tw-w-full">
                         <img src="{{ url('images/btn-plus.png') }}" alt="Open question" class="el-icon-plus">
 
-                        <img src="{{ url('images/btn-minus.png') }}" alt="Open question" class="el-icon-minus">
+                        <img src="{{ url('images/btn-minus.png') }}" alt="Close question" class="el-icon-minus">
 
                         <span class="tw-font-semibold tw-text-lg md:tw-text-2xl tw-leading-none tw-text-gray tw-mr-4">I already have a life insurance policy. What should I do with it?</span>
                     </div>
