@@ -8,8 +8,8 @@
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="60x60" href="{{ url('apple-touch-icon.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ url('favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ url('favicon-16x16.png') }}">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="{{ url('favicon-32x32.png') }}">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="{{ url('favicon-16x16.png') }}">
     <link rel="manifest" href="{{ url('site.webmanifest"') }}">
     <link rel="mask-icon" href="{{ url('safari-pinned-tab.svg') }}" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -123,7 +123,7 @@
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZBHRFP"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                      height="0" width="0" class="tw-hidden tw-invisible"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="app" class="tw-min-h-screen tw-flex tw-flex-col tw-justify-between @yield('pageClass')">
         <div class="tw-flex-grow">
