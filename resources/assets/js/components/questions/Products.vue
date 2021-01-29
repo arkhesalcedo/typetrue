@@ -8,22 +8,22 @@
             <p class="tw-mb-10 tw-text-xl tw-text-gray-600 tw-font-thin">
                 per month for <b class="tw-underline tw-text-black tw-text-2xl text-light-blue" style="font-weight: 900;">{{ faceAmount | formatNum }}</b> in <br>
                 <el-select @change="selectProduct" v-model="selectedProduct" placeholder="Select">
-                    <el-option 
+                    <el-option
                         v-if="showT10"
                         label="10-year term"
                         value="t10">
                     </el-option>
-                    <el-option 
+                    <el-option
                         v-if="showT20"
                         label="20-year term"
                         value="t20">
                     </el-option>
-                    <el-option 
+                    <el-option
                         v-if="showT30"
                         label="30-year term"
                         value="t30">
                     </el-option>
-                    <el-option 
+                    <el-option
                         v-if="showT100"
                         label="100-year term"
                         value="t100">
@@ -31,7 +31,7 @@
                 </el-select> <br>
                 life coverage
             </p>
-            
+
             <transition name="el-fade-in">
                 <div v-if="showMaxFaceAmountMessage">
                     <p class="tw-text-gray-600 tw-text-2xl tw-cursor-pointer tw-underline tw-mb-10">
@@ -58,7 +58,7 @@
         <div class="tw-mb-10">
             <el-button class="custom-button btn-lg text-lg tw-inline-block" @click.prevent="nextPage">Email Quote</el-button>
         </div>
-    
+
         <p class="tw-text-xs tw-text-gray-600 tw-font-thin tw-text-center">These quotes are based on information you entered. Your actual price will be based on the information in your application.</p>
     </div>
 </template>
@@ -91,6 +91,7 @@
                 },
 
                 selectedProduct: 't10',
+                selectedProduct2: 't20',
 
                 oldFaceAmount: 450000,
                 minFaceAmount: 25000,
@@ -253,8 +254,8 @@
                     faceAmount: this.faceAmount,
                     monthlyPremium: this.monthlyPremium,
                     // Add another faceAmount and monthlyPremium
-                    product: 't10',
-                    product2: 't20',
+                    product: this.selectedProduct,
+                    product2: this.selectedProduct2,
                     faceAmount2: this.faceAmount2,
                     monthlyPremium2: this.monthlyPremium2,
                 });
@@ -275,7 +276,7 @@
                         calculatedMonthlyPremium = (((parseInt(faceAmount) / 1000) * rate) + 144) / 12;
                     }
                 } else {
-                    calculatedMonthlyPremium = '--';
+                    calculatedMonthlyPremium = 0;
                 }
 
                 console.log(calculatedMonthlyPremium);
@@ -293,7 +294,7 @@
 
                 if (this.faceAmount >= 25000 && this.selectedProduct === 't100') {
                     this.bandBracket = 25000;
-                } 
+                }
 
                 if (this.faceAmount >= 50000 && this.selectedProduct === 't10') {
                     this.bandBracket = 50000;
@@ -344,7 +345,7 @@
                 let number = this.fields.basic.age;
                 let min = Math.floor(number / 5) * 5;
                 let max = min + 5;
-                
+
                 let w = (number - min)/(max - min);
 
                 let minResult = this.getRate(this.rating, min, 'RatedAge');
@@ -360,7 +361,7 @@
             calculateInterpolation(number, product) {
                 let min = Math.floor(number / 5) * 5;
                 let max = min + 5;
-                
+
                 let w = (number - min)/(max - min);
 
                 let minResult = this.getRate(min, this.bandBracket, product);
@@ -399,13 +400,11 @@
                 // Calculate for static values and just update lead and redirect to thank you page
                 this.calculatePremium(this.selectedProduct, this.faceAmount, 'monthlyPremium');
 
-                this.selectedProduct = 't20';
-
-                this.calculatePremium(this.selectedProduct, this.faceAmount2, 'monthlyPremium2');
+                this.calculatePremium(this.selectedProduct2, this.faceAmount2, 'monthlyPremium2');
 
                 await this.update();
 
-                this.$router.push({ name: 'thanks' });
+                this.$router.push({ name: 'thanks' }).finally();
             }
         },
 
@@ -416,17 +415,17 @@
 
             this.setProgress({ value: 100 });
 
-            if (this.fields.basic.age > 75) {
-                this.selected = 't100';
-            }
-
-            if (this.fields.basic.age > 35 && this.fields.basic.age < 56) {
-                this.selectedProduct = 't20';
-            }
-
-            if (this.fields.basic.age > 55) {
-                this.selectedProduct = 't100';
-            }
+            // if (this.fields.basic.age > 75) {
+            //     this.selected = 't100';
+            // }
+            //
+            // if (this.fields.basic.age > 35 && this.fields.basic.age < 56) {
+            //     this.selectedProduct = 't20';
+            // }
+            //
+            // if (this.fields.basic.age > 55) {
+            //     this.selectedProduct = 't100';
+            // }
 
             this.setAndCalculate();
         }
