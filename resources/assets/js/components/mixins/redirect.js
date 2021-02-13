@@ -9,7 +9,7 @@ export default {
 
     beforeMount() {
         if (! this.leadID) {
-            this.$router.push('/get-started');
+            this.$router.push({ name: 'home' });
         }
     }
 }

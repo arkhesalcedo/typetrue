@@ -14,17 +14,17 @@ import Thanks from './components/questions/Thanks';
 
 const routes = [
     { path: '/', component: Gender, name: 'home' },
-    { path: '/what-is-your-gender', component: Gender, name: 'gender' },
-    { path: '/how-old-are-you', component: Age, name: 'age' },
-    { path: '/when-were-you-diagnosed', component: Diagnosed, name: 'diagnosed' },
-    { path: '/are-you-a-smoker', component: Smoker, name: 'smoker' },
-    { path: '/your-current-a1c', component: A1c, name: 'a1c' },
-    { path: '/how-tall-are-you', component: Height, name: 'height' },
-    { path: '/how-much-do-you-weigh', component: Weight, name: 'weight' },
-    { path: '/any-conditions', component: Conditions, name: 'conditions' },
-    { path: '/enter-your-info', component: Info, name: 'info' },
-    { path: '/select-product', component: Products, name: 'products' },
-    { path: '/so-sorry', component: Sorry, name: 'sorry' },
+    { path: '/gender', component: Gender, name: 'gender' },
+    { path: '/age', component: Age, name: 'age' },
+    { path: '/diagnosed', component: Diagnosed, name: 'diagnosed' },
+    { path: '/smoker', component: Smoker, name: 'smoker' },
+    { path: '/a1c', component: A1c, name: 'a1c' },
+    { path: '/height', component: Height, name: 'height' },
+    { path: '/weight', component: Weight, name: 'weight' },
+    { path: '/conditions', component: Conditions, name: 'conditions' },
+    { path: '/info', component: Info, name: 'info' },
+    { path: '/product', component: Products, name: 'products' },
+    { path: '/sorry', component: Sorry, name: 'sorry' },
     { path: '/thanks', component: Thanks, name: 'thanks' },
 ];
 
