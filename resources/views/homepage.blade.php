@@ -117,7 +117,7 @@
         </div>
 
         <div class="tw-flex tw-justify-center">
-            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-px-10 tw-py-2 text-lg tw-inline-block tw-rounded-full" href="{{ url('/what-is-your-gender') }}">
+            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-px-10 tw-py-2 text-lg tw-inline-block tw-rounded-full" href="{{ url('/gender') }}">
                <span class="tw-font-black tw-text-xl sm:tw-text-2xl">Get your FREE quote</span>
             </a>
         </div>
@@ -414,7 +414,7 @@
         <div class="tw-text-center">
             <p class="tw-mb-10 md:tw-mb-20 tw-text-lg tw-text-gray">Didn’t find the answer? Call us and we will help <span class="tw-text-xl tw-text-primary tw-font-black">1-877-897-3878</span></p>
 
-            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-px-10 tw-py-2 text-lg tw-inline-block tw-rounded-full" href="{{ url('/what-is-your-gender') }}">
+            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-px-10 tw-py-2 text-lg tw-inline-block tw-rounded-full" href="{{ url('/gender') }}">
                 <span class="tw-font-black tw-text-xl sm:tw-text-2xl">Get your FREE quote</span>
             </a>
         </div>
