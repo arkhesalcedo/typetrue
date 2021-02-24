@@ -28,6 +28,10 @@
     <link href="{{ mix('css/main.css') }}" rel="stylesheet">
 
     @yield('header')
+    <!-- oribi -->
+    <script type="application/javascript">
+      (function(b,o,n,g,s,r,c){if(b[s])return;b[s]={};b[s].scriptToken="Xy0xMDY1NDI2ODIx";b[s].callsQueue=[];b[s].api=function(){b[s].callsQueue.push(arguments);};r=o.createElement(n);c=o.getElementsByTagName(n)[0];r.async=1;r.src=g;r.id=s+n;c.parentNode.insertBefore(r,c);})(window,document,"script","https://cdn.oribi.io/Xy0xMDY1NDI2ODIx/oribi.js","ORIBI");
+    </script>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
