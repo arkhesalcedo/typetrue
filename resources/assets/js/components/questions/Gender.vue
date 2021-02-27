@@ -46,9 +46,11 @@
         },
 
         mounted() {
-            this.preSelectedA1c = this.$route.query.a1c;
+            this.preSelectedA1c = localStorage.a1c || this.$route.query.a1c;
 
             if (this.preSelectedA1c) {
+                localStorage.removeItem('a1c');
+
                 this.setBasicField({ field: 'a1c', value: this.preSelectedA1c });
             }
 

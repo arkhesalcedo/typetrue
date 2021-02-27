@@ -1,6 +1,6 @@
 import './bootstrap';
 import Vue from 'vue';
-import Vuex from 'vuex';
+import Vuex, {mapGetters, mapMutations} from 'vuex';
 import VueRouter from 'vue-router';
 import router from './routes';
 import storeFactory from './store.js';
@@ -34,5 +34,11 @@ Vue.component('leads-table', LeadsTable);
 const app = new Vue({
     el: '#app',
     router,
-    store
+    store,
+
+    methods: {
+        setA1c(value) {
+            localStorage.setItem('a1c', value);
+        }
+    }
 });

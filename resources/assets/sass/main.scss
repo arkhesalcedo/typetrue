@@ -224,6 +224,11 @@ button {
 .homepage-selection {
     min-width: 112px;
 
+    &:hover {
+        background-color: $thirdy !important;
+        border-color: $thirdy !important;
+    }
+
     @media (max-width: 475px) {
         max-width: 100%;
     }
