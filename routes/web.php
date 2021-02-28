@@ -57,6 +57,10 @@ Route::post('/email-quote', function () {
     $lead = \App\Lead::findOrFail(request()->input('lead_id'));
 
     \Mail::to($lead->email)->send(new \App\Mail\EmailQuote($lead));
+
+    foreach (['arkhesalcedo@yahoo.com', 'info@typetrue.ca'] as $recipient) {
+        Mail::to($recipient)->send(new \App\Mail\Notification($lead));
+    }
 });
 
 Route::prefix('lead')->group(function () {

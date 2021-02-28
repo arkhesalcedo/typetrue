@@ -13,7 +13,7 @@
 
         <div v-if="years === 0">
             <h1 class="tw-mb-10 tw-text-xl tw-text-gray-600 tw-font-thin tw-text-center">Were you diagnosed with Type 2 less than 6 months ago?</h1>
-        
+
             <div class="tw-flex tw-justify-center tw-mb-10">
                 <el-button class="btn-lg text-lg" @click="setMonths(true)">Yes</el-button>
 
@@ -48,7 +48,7 @@
 
             generateYears() {
                 return range(0, 100);
-            }  
+            }
         },
 
         methods: {
@@ -71,10 +71,10 @@
 
             setMonths(status) {
                 if (status) {
-                    this.months = 7;
-                } else {
                     this.years = 0;
                     this.months = 5;
+                } else {
+                    this.months = 7;
                 }
 
                 this.setDiagnosed();
