@@ -50,7 +50,7 @@ For ${{ number_format($lead->faceAmount2, 2) }} of coverage over a 20 year term:
 
 1-877-TYPE-TRU<br>
 1-877-897-3878<br>
-info@typetrue.com
+info@typetrue.ca
 
 Thanks,<br>
 {{ config('app.name') }}
