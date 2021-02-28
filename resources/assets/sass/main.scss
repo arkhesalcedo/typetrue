@@ -174,25 +174,17 @@ button {
     @extend .beige-background;
 
     .banner {
-        @media (max-height: 768px) {
+        min-height: 100%;
+
+        @media (min-width: 425px) {
+            max-height: 900px;
+        }
+
+        @media (max-height: 700px) {
             align-items: flex-start !important;
-        }
 
-        @media (min-height: 768px) {
-            @media (min-width: 1025px) {
-                min-height: calc(100vh - 113px);
-            }
-        }
-
-        h1 {
-            @media (max-height: 768px) {
+            h1 {
                 font-size: 1.875rem;
-            }
-        }
-
-        .banner-buttons {
-            @media (max-height: 768px) {
-                margin-bottom: 20px;
             }
         }
 
@@ -224,6 +216,11 @@ button {
 .homepage-selection {
     min-width: 112px;
 
+    @media (min-width: 1024px) and (max-width: 1280px) {
+        min-width: 90px;
+        font-size: 12px !important;
+    }
+
     &:hover {
         background-color: $thirdy !important;
         border-color: $thirdy !important;
@@ -232,6 +229,11 @@ button {
     @media (max-width: 475px) {
         max-width: 100%;
     }
+}
+
+.banner-image {
+    min-height: 500px;
+    max-height: calc(100vh - 113px);
 }
 
 .custom-button-blue {
@@ -337,6 +339,16 @@ button {
 .bbb-logo {
     max-width: 100px;
     height: auto;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-left: -11px;
+
+    @media (min-width: 425px) {
+        max-width: 280px;
+    }
 }
 
 .banner-comment {

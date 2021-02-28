@@ -4,47 +4,55 @@
 
 @section('banner')
     <div class="banner-container">
-        <div class="tw-container tw-mx-auto banner tw-box-border tw-flex-col lg:tw-flex-row tw-flex tw-items-end tw-w-full tw-px-4">
+        <div class="tw-container tw-mx-auto banner tw-box-border tw-flex-col lg:tw-flex-row tw-flex tw-items-center tw-w-full tw-px-4">
             <div class="tw-w-full lg:tw-w-1/2 xl:tw-w-3/5">
-                <h1 class="tw-text-blue tw-text-3xl xl:tw-text-5xl tw-font-black tw-mb-4 tw-leading-tight">
+                <h1 class="tw-text-blue tw-text-3xl lg:tw-text-5xl tw-font-black tw-mb-4 tw-leading-tight">
                     Get your guaranteed best price on life insurance for type 2 diabetics
                 </h1>
 
                 <p class="tw-text-gray tw-mb-4 tw-w-full tw-text-xl sm:tw-text-2xl">Did you know that many type 2 diabetics can get the same low price as non-diabetics? Find out if you qualify.</p>
 
-                <p class="tw-text-gray tw-font-black tw-mb-4 w-text-lg sm:tw-text-xl">My latest A1C reading is:</p>
+                <div class="tw-flex">
+                    <div class="tw-justify-center tw-w-full md:tw-w-1/3 lg:tw-w-full">
+                        <p class="tw-text-gray tw-font-black tw-mb-4 w-text-lg sm:tw-text-xl">My latest A1C reading is:</p>
 
-                <div class="tw-mb-10 xl:tw-mb-32 tw-flex tw-flex-col sm:tw-flex-row banner-buttons tw-flex-wrap">
-                    <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(6.9)">
-                        Less than<br> <span class="tw-font-black">7</span>
-                    </a>
-                    <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(7.5)">
-                        Between<br> <span class="tw-font-black">7 and 8</span>
-                    </a>
-                    <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(8.5)">
-                        Between<br> <span class="tw-font-black">8 and 9</span>
-                    </a>
-                    <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(9.5)">
-                        Between<br> <span class="tw-font-black">9 and 10</span>
-                    </a>
-                    <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(10.1)">
-                        Over<br> <span class="tw-font-black">10</span>
-                    </a>
-                </div>
+                        <div class="tw-mb-4 tw-flex tw-flex-col lg:tw-flex-row banner-buttons tw-flex-wrap">
+                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(6.9)">
+                                Less than<br> <span class="tw-font-black">7</span>
+                            </a>
+                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(7.5)">
+                                Between<br> <span class="tw-font-black">7 and 8</span>
+                            </a>
+                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(8.5)">
+                                Between<br> <span class="tw-font-black">8 and 9</span>
+                            </a>
+                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(9.5)">
+                                Between<br> <span class="tw-font-black">9 and 10</span>
+                            </a>
+                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(10.1)">
+                                Over<br> <span class="tw-font-black">10</span>
+                            </a>
+                        </div>
 
-                <div class="tw-flex tw-items-center tw-mb-10 tw-justify-between sm:tw-justify-start banner-images">
-                    <a target="_blank" class="tw-inline-block tw-mr-4" title="Click for the Business Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.bbb.org/ca/on/north-york/profile/life-insurance/typetrue-ltd-0107-1376679#sealclick">
-                        <img alt="Click for the BBB Business Review of this Insurance - Life in North York ON" src="{{ url('images/img-bbb.png')  }}">
-                    </a>
+                        <div class="tw-flex tw-items-center tw-mb-10 tw-justify-center md:tw-justify-start banner-images">
+                            <a target="_blank" class="tw-inline-block tw-mr-4" title="Click for the Business Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.bbb.org/ca/on/north-york/profile/life-insurance/typetrue-ltd-0107-1376679#sealclick">
+                                <img alt="Click for the BBB Business Review of this Insurance - Life in North York ON" src="{{ url('images/img-bbb.png')  }}">
+                            </a>
 
-                    <a target="_blank" class="tw-inline-block" title="GClick for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.google.com/search?sxsrf=ALeKk02wN0C5QkqI3ZX3yOe-sfD4T93mzg%3A1610406444592&ei=LNr8X8PFI-O9ggfplLGwBQ&q=typetrue.ca&oq=typetrue.ca&gs_lcp=CgZwc3ktYWIQAzICCCZQyC5YyC5grzZoAHAAeACAAVmIAVmSAQExmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjDi8vA_5TuAhXjnuAKHWlKDFYQ4dUDCA0&uact=5#lrd=0x89d4cdba2710f7ed:0x1e3c1a3a12ea747a,1,,,">
-                        <img alt="Click for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" src="{{ url('images/img-google.svg')  }}">
-                    </a>
+                            <a target="_blank" class="tw-inline-block" title="GClick for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.google.com/search?sxsrf=ALeKk02wN0C5QkqI3ZX3yOe-sfD4T93mzg%3A1610406444592&ei=LNr8X8PFI-O9ggfplLGwBQ&q=typetrue.ca&oq=typetrue.ca&gs_lcp=CgZwc3ktYWIQAzICCCZQyC5YyC5grzZoAHAAeACAAVmIAVmSAQExmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjDi8vA_5TuAhXjnuAKHWlKDFYQ4dUDCA0&uact=5#lrd=0x89d4cdba2710f7ed:0x1e3c1a3a12ea747a,1,,,">
+                                <img alt="Click for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" src="{{ url('images/img-google.svg')  }}">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="tw-w-full md:tw-w-2/3 tw-hidden md:tw-flex lg:tw-hidden tw-justify-center">
+                        <img class="tw-inline-block banner-image" src="{{ url('images/img-woman.png') }}" alt="Banner">
+                    </div>
                 </div>
             </div>
 
-            <div class="tw-w-full tw-hidden md:tw-flex tw-justify-center lg:tw-w-1/2 xl:tw-w-2/5">
-                <img class="tw-inline-block" src="{{ url('images/img-woman.png') }}" alt="Banner">
+            <div class="tw-w-full tw-hidden lg:tw-flex tw-justify-center lg:tw-w-1/2 xl:tw-w-2/5">
+                <img class="tw-inline-block banner-image" src="{{ url('images/img-woman.png') }}" alt="Banner">
             </div>
         </div>
     </div>

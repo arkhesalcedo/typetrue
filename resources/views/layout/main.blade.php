@@ -135,7 +135,7 @@
                 <div class="tw-container tw-mx-auto tw-flex tw-justify-between tw-items-center tw-p-4">
                     <div class="tw-mr-4 tw-w-2/3 sm:tw-w-auto">
                         <a href="{{ url('/') }}" class="tw-mb-4">
-                            <img src="{{ url('images/type-true-logo.svg') }}" alt="Type True" class="tw-mb-2">
+                            <img class="logo" src="{{ url('images/type-true-logo.svg') }}" alt="Type True" class="tw-mb-2">
                         </a>
 
                         <p class="tw-text-blue text-small">Type 2 life insurance specialists</p>
@@ -171,7 +171,7 @@
         <div class="footer tw-py-10">
             <div class="tw-container tw-mx-auto tw-px-4">
                 <div class="tw-flex tw-justify-center md:tw-justify-start">
-                    <img src="{{ url('images/logo-gray.svg') }}" alt="TypeTrue" class="tw-mb-5">
+                    <img class="logo" src="{{ url('images/type-true-logo-footer.svg') }}" alt="TypeTrue" class="tw-mb-5">
                 </div>
 
                 <div class="tw-flex tw-justify-between tw-flex-col md:tw-flex-row tw-border-b tw-pb-5 footer-border tw-mb-5 tw-items-center">
@@ -181,7 +181,7 @@
                         <a href="{{ url('/contact-us') }}" class="hover:tw-underline tw-text-center sm:tw-text-left tw-mx-4 tw-text-white tw-text-lg tw-font-black">Contact Us</a>
                     </div>
 
-                    <div class="tw-flex tw--mx-4">
+                    <div class="tw-flex tw--mx-2">
                         <a href="https://www.facebook.com/typetrue.ca" class="sm:tw-mx-2">
                             <img src="{{ url('images/ic-facebook.svg') }}" alt="Facebook">
                         </a>
@@ -192,7 +192,7 @@
                 </div>
 
                 <div class="tw-flex tw-justify-between tw-flex-col md:tw-flex-row tw-items-center">
-                    <div class="tw-flex tw-flex-wrap sm:tw-flex-no-wrap tw--mx-4 tw-mb-5 md:tw-mb-0">
+                    <div class="tw-flex tw-flex-wrap sm:tw-flex-no-wrap tw--mx-2 tw-mb-5 md:tw-mb-0">
                         <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-1/2 sm:tw-w-auto">
                             <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-best-price.svg')  }}" alt="best price">
                         </div>
