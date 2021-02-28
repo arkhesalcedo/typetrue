@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="tw-container tw-mx-auto tw-px-6">
-        <div class="tw-pt-40 tw-mb-10">
+        <div class="tw-mb-10">
             <h1 class="tw-mb-4 text-blue tw-text-4xl tw-font-semibold">Request A Callback</h1>
 
             <request-callback></request-callback>

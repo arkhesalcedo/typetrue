@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="tw-container tw-mx-auto tw-px-6">
-        <div class="tw-pt-32">
+        <div>
             <h1 class="tw-mb-4 text-blue tw-text-4xl tw-font-semibold">Privacy Policy</h1>
 
             <p class="tw-mb-4">Last updated: July 27, 2020</p>
