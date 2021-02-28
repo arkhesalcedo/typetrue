@@ -13,8 +13,4 @@ Phone: {{ $lead->phone }}<br>
 
 Thanks,<br>
 {{ config('app.name') }}
-
-@component('mail::subcopy')
-These quotes are based on information you entered. Your actual price will be based on the information in your application.”
-@endcomponent
 @endcomponent
