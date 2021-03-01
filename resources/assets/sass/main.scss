@@ -221,9 +221,11 @@ button {
         font-size: 12px !important;
     }
 
-    &:hover {
-        background-color: $thirdy !important;
-        border-color: $thirdy !important;
+    @media (min-width: 1024px) {
+        &:hover {
+            background-color: $thirdy !important;
+            border-color: $thirdy !important;
+        }
     }
 
     @media (max-width: 475px) {
