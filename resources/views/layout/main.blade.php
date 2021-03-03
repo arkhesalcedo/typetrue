@@ -201,15 +201,9 @@
                             <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-ssl.svg')  }}" alt="ssl">
                         </div>
 
-                        <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-1/2 sm:tw-w-auto">
+                        <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-full sm:tw-w-auto">
                             <a href="https://www.mcafeesecure.com/for-consumers" target="_blank">
                                 <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-mcafee.svg')  }}" alt="mcafee">
-                            </a>
-                        </div>
-
-                        <div class="tw-text-center tw-mb-5 sm:tw-mb-0 sm:tw-mx-2 tw-w-1/2 sm:tw-w-auto">
-                            <a href="https://www.zoomerradio.ca/show/tonic/the-tonic-show-podcast/tonic-podcast-october-27th/" target="_blank">
-                                <img class="tw-inline-block home-sub-icons" src="{{ url('images/img-zoomer-radio.svg')  }}" alt="zoomer">
                             </a>
                         </div>
                     </div>

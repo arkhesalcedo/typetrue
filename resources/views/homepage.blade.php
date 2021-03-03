@@ -98,30 +98,6 @@
                     <p class="tw-text-gray tw-text-lg">Buy your policy from leading Canadian insurance companies.</p>
                 </div>
             </div>
-
-            <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
-                <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
-                    <div class="tw-mb-4 tw-min-h-150">
-                        <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-tech.svg') }}" alt="High Tech">
-
-                        <h3 class="tw-font-semibold tw-text-2xl">High Tech</h3>
-                    </div>
-
-                    <p class="tw-text-gray tw-text-lg">Find the lowest price for your diabetes profile. Get a personalized price estimate in minutes.</p>
-                </div>
-            </div>
-
-            <div class="tw-text-center tw-w-full lg:tw-w-1/3 max-width-card tw-mb-4 tw-p-5">
-               <div class="tw-shadow-lg tw-rounded-lg tw-p-10 tw-h-full tw-pt-5">
-                   <div class="tw-mb-4 tw-min-h-150">
-                       <img class="tw-mb-4 tw-inline-block" src="{{ url('images/ic-touch.svg') }}" alt="High Touch">
-
-                       <h3 class="tw-font-semibold tw-text-2xl">High Touch</h3>
-                   </div>
-
-                   <p class="tw-text-gray tw-text-lg">Buy your policy from leading Canadian insurance companies.</p>
-               </div>
-            </div>
         </div>
 
         <div class="tw-flex tw-justify-center">
