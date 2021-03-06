@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="tw-mb-10 tw-text-2xl tw-text-gray-600 tw-font-thin tw-text-center">Enter your information and we will instantly email you a free quote.</h1>
+        <h1 class="tw-mb-10 tw-text-2xl tw-text-gray-600 tw-font-thin tw-text-center">We are pleased to inform you that, based on your input, you qualify for low priced life insurance from one of our most trusted providers.</h1>
 
         <div class="tw-flex tw-flex-col md:tw-flex-row tw-mb-5">
             <div class="tw-flex tw-flex-col md:tw-w-2/3 tw-mb-5 md:tw-mb-0 md:tw-mr-4">
