@@ -279,8 +279,6 @@
                     calculatedMonthlyPremium = 0;
                 }
 
-                console.log(calculatedMonthlyPremium);
-
                 // TODO: fix this in the future
                 if (monthlyPremium === 'monthlyPremium') {
                     this.monthlyPremium = calculatedMonthlyPremium;

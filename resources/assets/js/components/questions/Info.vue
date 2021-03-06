@@ -5,7 +5,7 @@
         <div class="tw-flex tw-flex-col md:tw-flex-row tw-mb-5">
             <div class="tw-flex tw-flex-col md:tw-w-2/3 tw-mb-5 md:tw-mb-0 md:tw-mr-4">
                 <div class="tw-mb-5 tw-w-full">
-                    <el-input placeholder="Name" v-model="info.full_name"></el-input>
+                    <el-input placeholder="Name (optional)" v-model="info.full_name"></el-input>
                 </div>
 
                 <div class="tw-mb-5 tw-w-full">
@@ -15,7 +15,7 @@
                 </div>
 
                 <div class="tw-w-full">
-                    <el-input placeholder="Phone Number" v-model="info.phone" type="tel" v-mask="'+1 (###) ###-####'"></el-input>
+                    <el-input placeholder="Phone Number (optional)" v-model="info.phone" type="tel" v-mask="'+1 (###) ###-####'"></el-input>
                 </div>
             </div>
 
@@ -29,6 +29,18 @@
         <p class="tw-mb-10 tw-text-xs tw-text-gray-600 tw-font-thin tw-text-center">Your information will be kept secure and confidential and will not be shared with anyone.</p>
 
         <p class="tw-text-center"><el-button class="custom-button btn-lg text-lg tw-inline-block" @click="setInformation" v-if="hasInfo">Get Quote</el-button></p>
+
+        <el-dialog
+            class="message-box tw-flex tw-items-center tw-justify-center"
+            :visible.sync="isSending"
+            center
+            append-to-body>
+            <div class="tw-text-center">
+                <img class="tw-mb-4 tw-inline-block blink-image" src="/images/ic-tech.svg" alt="High Tech">
+
+                <p class="tw-mb-10 tw-text-xl tw-text-gray-600 tw-font-thin tw-text-center">TrueD&trade; is working to find you the best price on life insurance...</p>
+            </div>
+        </el-dialog>
     </div>
 </template>
 
@@ -46,6 +58,7 @@
         data() {
             return {
                 isEmailValid: false,
+                isSending: false,
                 info: {
                     full_name: null,
                     first_name: null,
@@ -64,7 +77,6 @@
                 let status = true;
 
                 this.validateFields.forEach((field) => {
-                    console.log(field);
                     if (! this.info[field]) {
                         status = false;
                     }
@@ -82,8 +94,6 @@
                     }
                 });
 
-                console.log(status);
-
                 return status;
             },
 
@@ -92,6 +102,10 @@
             },
 
             deliverableEmail() {
+                if (! this.info.email) {
+                    return true;
+                }
+
                 return this.validEmail && this.isEmailValid;
             },
 
@@ -121,13 +135,19 @@
             }, 1000),
 
             async setInformation() {
+                this.isSending = true;
+
                 this.setInfo(this.info);
 
                 await this.updateLead({ ...this.info });
 
                 window.scrollTo(0, 0);
 
-                await this.$router.push({ name: 'products'});
+                setTimeout(() => {
+                    this.isSending = false;
+
+                    this.$router.push({ name: 'products'}).finally();
+                }, 3000);
             }
         },
 

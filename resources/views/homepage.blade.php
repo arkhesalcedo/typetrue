@@ -117,9 +117,13 @@
                 <div class="lg:tw-w-2/3 lg:tw-pl-10">
                     <h2 class="tw-mb-10 text-blue tw-text-2xl sm:tw-text-4xl tw-font-black">About Us</h2>
 
-                    <p class="tw-text-gray tw-text-lg tw-mb-4">People with diabetes often think they won’t qualify for life insurance – or that it won’t be affordable. The truth is that most Diabetics do pay too much for life insurance. TypeTrue works with life insurance professionals to get you the guaranteed best deal on life insurance. We do that first by understanding your diabetic condition. Everyone is unique.</p>
+                    <p class="tw-text-gray tw-text-lg tw-mb-4">TypeTrue is the first life insurance specialist to use TrueD&trade; data-based software to select the best life insurance company for individual diabetic conditions. TrueD’s extensive database ensures diabetics get matched with the best life insurance product for their needs at the lowest possible price.</p>
 
-                    <p class="tw-text-gray tw-text-lg tw-mb-4">With that information, we can select the right life insurance product for your specific needs, and the insurance company that can give you the lowest possible available price. So, contact us before you contact an agent or insurance company to find out if you qualify for the lowest possible price.</p>
+                    <p class="tw-text-gray tw-text-lg tw-mb-4">Most diabetics pay too much for life insurance because it’s easier for insurance companies to just charge the same higher rate for all diabetics. But some companies charge lower rates for certain medical conditions.</p>
+
+                    <p class="tw-text-gray tw-text-lg tw-mb-4">By providing us with information on your specific diabetic condition, we can match you with the company that can give you the best possible price.</p>
+
+                    <p class="tw-text-gray tw-text-lg tw-mb-4">That’s the TypeTrue advantage!</p>
                 </div>
             </div>
 
@@ -131,7 +135,7 @@
                 <div class="md:tw-pl-10">
                     <h3 class="tw-font-semibold tw-text-gray tw-text-2xl tw-mb-4">Our Guarantee:</h3>
 
-                    <p class="tw-text-gray tw-text-lg tw-mb-4">We will, over the years, monitor your life insurance. If we or you can find a better deal, we will switch you to that offering. And, if you are not satisfied in any way, you may cancel your plan at any time – with no penalties whatsoever.</p>
+                    <p class="tw-text-gray tw-text-lg tw-mb-4">We will, over the years, monitor your life insurance using the TrueD&trade; process. If we, or you, can find a better deal, we will switch you to that offering. And, if you are not satisfied in any way, you may cancel your plan at any time – with no penalties whatsoever.</p>
                 </div>
             </div>
         </div>
