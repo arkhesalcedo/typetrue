@@ -2,6 +2,8 @@
 
 @section('pageClass', 'tw-h-screen')
 
+@section('footerClass', 'tw-hidden')
+
 @section('content')
     <div class="tw-container tw-mx-auto tw-px-10 tw-flex tw-justify-center tw-items-start">
         <div class="tw-flex tw-flex-col tw-w-full tw-mt-20 tw-mb-10">

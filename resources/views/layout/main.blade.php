@@ -168,7 +168,7 @@
             @yield('content')
         </div>
 
-        <div class="footer tw-py-10">
+        <div class="footer tw-py-10 @yield('footerClass')">
             <div class="tw-container tw-mx-auto tw-px-4">
                 <div class="tw-flex tw-justify-center md:tw-justify-start">
                     <img class="logo" src="{{ url('images/type-true-logo-footer.svg') }}" alt="TypeTrue" class="tw-mb-5">
