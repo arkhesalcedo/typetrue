@@ -1,10 +1,9 @@
 import './bootstrap';
 import Vue from 'vue';
-import Vuex, {mapGetters, mapMutations} from 'vuex';
+import Vuex from 'vuex';
 import VueRouter from 'vue-router';
 import router from './routes';
 import storeFactory from './store.js';
-import VueAnalytics from 'vue-analytics'
 import ElementUI from 'element-ui';
 import VueCarousel from 'vue-carousel';
 
@@ -14,10 +13,6 @@ Vue.use(ElementUI);
 Vue.use(Vuex);
 Vue.use(VueRouter);
 Vue.use(VueCarousel);
-Vue.use(VueAnalytics, {
-    id: 'UA-114824705-1',
-    router
-});
 
 const store = storeFactory();
 
