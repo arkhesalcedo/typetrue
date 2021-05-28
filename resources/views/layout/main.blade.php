@@ -56,11 +56,11 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '626263161104702');
+        fbq('init', '225450125710329');
         fbq('track', 'PageView');
     </script>
     <noscript>
-        <img alt="facebook pixel" height="1" width="1" src="https://www.facebook.com/tr?id=626263161104702&ev=PageView&noscript=1"/>
+        <img alt="facebook pixel" height="1" width="1" src="https://www.facebook.com/tr?id=225450125710329&ev=PageView&noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
 
@@ -128,6 +128,8 @@
           ]
         }
     </script>
+
+    <meta name="facebook-domain-verification" content="nbbjycwfc1whlqvkwgdst4oqcydawx" />
 </head>
 
 <body>
