@@ -17,19 +17,19 @@
                         <p class="tw-text-gray tw-font-black tw-mb-4 w-text-lg sm:tw-text-xl">My latest A1C reading is:</p>
 
                         <div class="tw-mb-4 tw-flex tw-flex-col lg:tw-flex-row banner-buttons tw-flex-wrap">
-                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(6.9)">
+                            <a plain id="lessThanSeven" class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(6.9)">
                                 Less than<br> <span class="tw-font-black">7</span>
                             </a>
-                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(7.5)">
+                            <a plain id="betweenSevenAndEight" class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(7.5)">
                                 Between<br> <span class="tw-font-black">7 and 8</span>
                             </a>
-                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(8.5)">
+                            <a plain id="betweenEightAndNine" class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(8.5)">
                                 Between<br> <span class="tw-font-black">8 and 9</span>
                             </a>
-                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(9.5)">
+                            <a plain id="betweenNineAndTen" class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(9.5)">
                                 Between<br> <span class="tw-font-black">9 and 10</span>
                             </a>
-                            <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(10.1)">
+                            <a plain id="overTen" class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-p-5 text-lg tw-inline-block tw-rounded-lg tw-cursor-pointer" href="{{ url('/gender') }}" @click="setA1c(10.1)">
                                 Over<br> <span class="tw-font-black">10</span>
                             </a>
                         </div>
