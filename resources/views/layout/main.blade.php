@@ -173,10 +173,10 @@
                     </div>
 
                     <div class="tw-flex tw--mx-2">
-                        <a href="https://www.facebook.com/typetrue.ca" class="sm:tw-mx-2">
+                        <a href="https://www.facebook.com/typetrue.ca" target="_blank" class="sm:tw-mx-2">
                             <img src="{{ url('images/ic-facebook.svg') }}" alt="Facebook">
                         </a>
-                        <a href="#" class="sm:tw-mx-2">
+                        <a href="https://www.instagram.com/typetrue.ca/" target="_blank" class="sm:tw-mx-2">
                             <img src="{{ url('images/ic-instagram.svg') }}" alt="Instagram">
                         </a>
                     </div>

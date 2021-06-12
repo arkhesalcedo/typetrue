@@ -39,7 +39,7 @@
                                 <img alt="Click for the BBB Business Review of this Insurance - Life in North York ON" src="{{ url('images/img-bbb.png')  }}">
                             </a>
 
-                            <a target="_blank" class="tw-inline-block" title="GClick for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.google.com/search?sxsrf=ALeKk02wN0C5QkqI3ZX3yOe-sfD4T93mzg%3A1610406444592&ei=LNr8X8PFI-O9ggfplLGwBQ&q=typetrue.ca&oq=typetrue.ca&gs_lcp=CgZwc3ktYWIQAzICCCZQyC5YyC5grzZoAHAAeACAAVmIAVmSAQExmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjDi8vA_5TuAhXjnuAKHWlKDFYQ4dUDCA0&uact=5#lrd=0x89d4cdba2710f7ed:0x1e3c1a3a12ea747a,1,,,">
+                            <a target="_blank" class="tw-inline-block" title="GClick for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" href="https://www.google.com/search?q=typetrue&sxsrf=ALeKk02grDB5dEcLAzGPEqR1Z1a7SKQWxQ%3A1621433433865&ei=WRylYJuwNO7mrgT1xK6YBw&oq=typetrue&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECc6CggjEK4CELADECdQrCFY4Tdg_TpoA3AAeACAAX-IAd8FkgEDMC42mAEAoAEBqgEHZ3dzLXdpesgBAcABAQ&sclient=gws-wiz&ved=0ahUKEwjbwOie9tXwAhVus4sKHXWiC3MQ4dUDCA4&uact=5#lrd=0x89d4cdba2710f7ed:0x1e3c1a3a12ea747a,1,,,">
                                 <img alt="Click for the Google Review of TypeTrue Ltd, an Insurance - Life in North York ON" src="{{ url('images/img-google.svg')  }}">
                             </a>
                         </div>
@@ -149,22 +149,34 @@
 
             <div class="tw-flex tw-flex-wrap lg:tw-flex-no-wrap tw-justify-between tw-items-center">
                 <div class="tw-text-center tw-mb-4 lg:tw-mb-0 tw-px-4 tw-w-1/2 md:tw-w-1/3 lg:tw-w-full">
-                    <img class="tw-inline-block tw-w-full" src="{{ url('images/img-equitablelife.svg') }}" alt="equitable life">
+                    <a href="https://www.equitable.ca/" target="_blank">
+                        <img class="tw-inline-block tw-w-full" src="{{ url('images/img-equitablelife.svg') }}" alt="equitable life">
+                    </a>
                 </div>
                 <div class="tw-text-center tw-mb-4 lg:tw-mb-0 tw-px-4 tw-w-1/2 md:tw-w-1/3 lg:tw-w-full">
-                    <img class="tw-inline-block tw-w-full" src="{{ url('images/img-empirelife.svg') }}" alt="empire life">
+                    <a href="https://www.empire.ca/" target="_blank">
+                        <img class="tw-inline-block tw-w-full" src="{{ url('images/img-empirelife.svg') }}" alt="empire life">
+                    </a>
                 </div>
                 <div class="tw-text-center tw-mb-4 lg:tw-mb-0 tw-px-4 tw-w-1/2 md:tw-w-1/3 lg:tw-w-full">
-                    <img class="tw-inline-block tw-w-full" src="{{ url('images/img-manulife.svg') }}" alt="manulife">
+                    <a href="https://www.manulife.ca/" target="_blank">
+                        <img class="tw-inline-block tw-w-full" src="{{ url('images/img-manulife.svg') }}" alt="manulife">
+                    </a>
                 </div>
                 <div class="tw-text-center tw-mb-4 lg:tw-mb-0 tw-px-4 tw-w-1/2 md:tw-w-1/3 lg:tw-w-full">
-                    <img class="tw-inline-block tw-w-full" src="{{ url('images/img-assumptionlife.svg') }}" alt="assumption life">
+                    <a href="https://www.assumption.ca/" target="_blank">
+                        <img class="tw-inline-block tw-w-full" src="{{ url('images/img-assumptionlife.svg') }}" alt="assumption life">
+                    </a>
                 </div>
                 <div class="tw-text-center tw-mb-4 lg:tw-mb-0 tw-px-4 tw-w-1/2 md:tw-w-1/3 lg:tw-w-full">
-                    <img class="tw-inline-block tw-w-full" src="{{ url('images/img-simply.svg') }}" alt="canada protection plan">
+                    <a href="https://www.cpp.ca/" target="_blank">
+                        <img class="tw-inline-block tw-w-full" src="{{ url('images/img-simply.svg') }}" alt="canada protection plan">
+                    </a>
                 </div>
                 <div class="tw-text-center tw-mb-4 lg:tw-mb-0 tw-px-4 tw-w-1/2 md:tw-w-1/3 lg:tw-w-full">
-                    <img class="tw-inline-block tw-w-full" src="{{ url('images/img-canadalife.svg') }}" alt="canada life">
+                    <a href="https://www.canadalife.com/" target="_blank">
+                        <img class="tw-inline-block tw-w-full" src="{{ url('images/img-canadalife.svg') }}" alt="canada life">
+                    </a>
                 </div>
             </div>
         </div>
@@ -400,7 +412,7 @@
         </el-collapse>
 
         <div class="tw-text-center">
-            <p class="tw-mb-10 md:tw-mb-20 tw-text-lg tw-text-gray">Didn’t find the answer? Call us and we will help <span class="tw-text-xl tw-text-primary tw-font-black">1-877-897-3878</span></p>
+            <p class="tw-mb-10 md:tw-mb-20 tw-text-lg tw-text-gray">Didn’t find the answer? Call us and we will help <a href="tel:+18778973878"><span class="tw-text-xl tw-text-primary tw-font-black">1-877-897-3878</span></a></p>
 
             <a plain class="custom-button homepage-selection tw-mr-2 tw-mb-2 tw-text-center tw-px-10 tw-py-2 text-lg tw-inline-block tw-rounded-full" href="{{ url('/gender') }}">
                 <span class="tw-font-black tw-text-xl sm:tw-text-2xl">Get your FREE quote</span>

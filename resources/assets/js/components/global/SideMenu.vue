@@ -6,7 +6,7 @@
             <img :src="closeMenuImage" @click="hideMenu" alt="Close side menu icon" class="tw-cursor-pointer tw-absolute close-side-menu-icon">
 
             <div class="tw-flex tw-flex-col">
-                <a href="/homepage" class="tw-mb-5 tw-font-black tw-text-primary tw-text-xl hover:tw-text-blue">
+                <a href="/" class="tw-mb-5 tw-font-black tw-text-primary tw-text-xl hover:tw-text-blue">
                     <span class="tw-font-black">Home</span>
                 </a>
 

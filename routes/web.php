@@ -12,7 +12,7 @@
 */
 
 Route::get('homepage', function() {
-    return view('homepage');
+    return Redirect::to('/', 301);
 });
 
 Route::get('privacy-policy', function() {
@@ -75,6 +75,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/leads', 'HomeController@getData')->name('leads');
 
 
-Route::get('/{any}', function () {
-    return view('questions');
+Route::get('/{any}', function ($any) {
+    if (in_array($any, ['gender', 'age', 'diagnosed', 'smoker', 'a1c', 'height', 'weight', 'conditions', 'info', 'product', 'sorry', 'thanks'])) {
+        return view('questions');
+    }
+
+    return Redirect::to('/', 301);
 })->where('any', '.*');
